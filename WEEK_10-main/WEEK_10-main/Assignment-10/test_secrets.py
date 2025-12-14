@@ -1,0 +1,10 @@
+import streamlit as st
+
+st.title("Test Secrets Startup")
+
+try:
+    api_key = st.secrets["OPENAI_API_KEY"]
+    st.success("API key loaded successfully!")
+    st.write(f"Key starts with: {api_key[:10]}...")
+except Exception as e:
+    st.error(f"Error loading API key: {e}")
