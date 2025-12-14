@@ -1,0 +1,501 @@
+id,ticket_id,priority,status,category,subject,description,created_date,resolved_date,assigned_to,created_at
+1,TCKT-1001,Medium,Resolved,Hardware,Software installation issue,Automatically generated sample ticket record,2024-07-14,2024-07-19,Ethan,2024-07-14 00:00:00
+2,TCKT-1002,Medium,Closed,Network,System running slow,Automatically generated sample ticket record,2024-01-04,2024-01-10,Ethan,2024-01-04 00:00:00
+3,TCKT-1003,Critical,In Progress,Software,Cannot connect to WiFi,Automatically generated sample ticket record,2024-03-18,,Bob,2024-03-18 00:00:00
+4,TCKT-1004,Critical,Resolved,Hardware,Access denied error,Automatically generated sample ticket record,2024-02-14,2024-02-18,Bob,2024-02-14 00:00:00
+5,TCKT-1005,Critical,Open,Security,System running slow,Automatically generated sample ticket record,2024-02-14,,Bob,2024-02-14 00:00:00
+6,TCKT-1006,High,Resolved,Access,Access denied error,Automatically generated sample ticket record,2024-06-17,2024-06-24,Alice,2024-06-17 00:00:00
+7,TCKT-1007,High,In Progress,Software,Printer not working,Automatically generated sample ticket record,2024-07-07,,Charlie,2024-07-07 00:00:00
+8,TCKT-1008,Low,In Progress,Network,Password reset request,Automatically generated sample ticket record,2024-01-09,,Ethan,2024-01-09 00:00:00
+9,TCKT-1009,Low,Resolved,Access,Password reset request,Automatically generated sample ticket record,2024-04-28,2024-05-07,Ethan,2024-04-28 00:00:00
+10,TCKT-1010,Critical,Resolved,Security,Software installation issue,Automatically generated sample ticket record,2024-09-01,2024-09-03,Fatima,2024-09-01 00:00:00
+11,TCKT-1011,Low,In Progress,Security,Antivirus alert,Automatically generated sample ticket record,2024-03-19,,Fatima,2024-03-19 00:00:00
+12,TCKT-1012,Low,In Progress,Access,VPN connection problem,Automatically generated sample ticket record,2024-01-20,,Bob,2024-01-20 00:00:00
+13,TCKT-1013,High,Resolved,Hardware,VPN connection problem,Automatically generated sample ticket record,2024-05-29,2024-06-05,Fatima,2024-05-29 00:00:00
+14,TCKT-1014,Low,In Progress,Security,System running slow,Automatically generated sample ticket record,2024-02-24,,Fatima,2024-02-24 00:00:00
+15,TCKT-1015,Critical,Open,Software,Access denied error,Automatically generated sample ticket record,2024-09-02,,Hassan,2024-09-02 00:00:00
+16,TCKT-1016,Medium,Resolved,Hardware,Password reset request,Automatically generated sample ticket record,2024-06-16,2024-06-21,Charlie,2024-06-16 00:00:00
+17,TCKT-1017,Low,Closed,Network,Email not syncing,Automatically generated sample ticket record,2024-01-29,2024-01-31,Alice,2024-01-29 00:00:00
+18,TCKT-1018,Critical,Open,Network,Antivirus alert,Automatically generated sample ticket record,2024-01-09,,Bob,2024-01-09 00:00:00
+19,TCKT-1019,High,Closed,Access,Software installation issue,Automatically generated sample ticket record,2024-03-31,2024-04-01,Ethan,2024-03-31 00:00:00
+20,TCKT-1020,High,Resolved,Hardware,Software installation issue,Automatically generated sample ticket record,2024-09-16,2024-09-17,Ethan,2024-09-16 00:00:00
+21,TCKT-1021,High,In Progress,Hardware,System running slow,Automatically generated sample ticket record,2024-09-24,,Charlie,2024-09-24 00:00:00
+22,TCKT-1022,Low,Closed,Network,Password reset request,Automatically generated sample ticket record,2024-04-15,2024-04-22,Ethan,2024-04-15 00:00:00
+23,TCKT-1023,Medium,In Progress,Software,Laptop not starting,Automatically generated sample ticket record,2024-03-25,,Fatima,2024-03-25 00:00:00
+24,TCKT-1024,Low,Open,Security,Password reset request,Automatically generated sample ticket record,2024-01-01,,Alice,2024-01-01 00:00:00
+25,TCKT-1025,Critical,Open,Access,Password reset request,Automatically generated sample ticket record,2024-02-23,,Hassan,2024-02-23 00:00:00
+26,TCKT-1026,Low,Open,Network,Antivirus alert,Automatically generated sample ticket record,2024-06-25,,Hassan,2024-06-25 00:00:00
+27,TCKT-1027,Low,Closed,Access,Software installation issue,Automatically generated sample ticket record,2024-03-28,2024-04-06,Alice,2024-03-28 00:00:00
+28,TCKT-1028,Critical,In Progress,Access,Access denied error,Automatically generated sample ticket record,2024-09-14,,Bob,2024-09-14 00:00:00
+29,TCKT-1029,High,Open,Hardware,System running slow,Automatically generated sample ticket record,2024-08-24,,David,2024-08-24 00:00:00
+30,TCKT-1030,Critical,Resolved,Software,Antivirus alert,Automatically generated sample ticket record,2024-10-06,2024-10-12,Bob,2024-10-06 00:00:00
+31,TCKT-1031,Medium,Resolved,Access,Laptop not starting,Automatically generated sample ticket record,2024-02-09,2024-02-19,Charlie,2024-02-09 00:00:00
+32,TCKT-1032,Low,Resolved,Hardware,System running slow,Automatically generated sample ticket record,2024-09-08,2024-09-14,Charlie,2024-09-08 00:00:00
+33,TCKT-1033,Low,In Progress,Security,Access denied error,Automatically generated sample ticket record,2024-03-18,,Fatima,2024-03-18 00:00:00
+34,TCKT-1034,High,Open,Access,Laptop not starting,Automatically generated sample ticket record,2024-02-04,,Hassan,2024-02-04 00:00:00
+35,TCKT-1035,Low,Open,Hardware,System running slow,Automatically generated sample ticket record,2024-05-08,,Alice,2024-05-08 00:00:00
+36,TCKT-1036,Critical,Resolved,Access,Password reset request,Automatically generated sample ticket record,2024-03-04,2024-03-08,Ethan,2024-03-04 00:00:00
+37,TCKT-1037,Medium,In Progress,Access,Access denied error,Automatically generated sample ticket record,2024-10-13,,Charlie,2024-10-13 00:00:00
+38,TCKT-1038,Low,Resolved,Network,Cannot connect to WiFi,Automatically generated sample ticket record,2024-09-14,2024-09-17,Bob,2024-09-14 00:00:00
+39,TCKT-1039,High,Open,Network,Cannot connect to WiFi,Automatically generated sample ticket record,2024-01-16,,Hassan,2024-01-16 00:00:00
+40,TCKT-1040,High,Resolved,Security,Password reset request,Automatically generated sample ticket record,2024-06-16,2024-06-25,Charlie,2024-06-16 00:00:00
+41,TCKT-1041,High,Resolved,Network,System running slow,Automatically generated sample ticket record,2024-05-20,2024-05-27,Hassan,2024-05-20 00:00:00
+42,TCKT-1042,Low,Resolved,Hardware,Software installation issue,Automatically generated sample ticket record,2024-06-29,2024-07-06,Ethan,2024-06-29 00:00:00
+43,TCKT-1043,High,In Progress,Network,Cannot connect to WiFi,Automatically generated sample ticket record,2024-01-27,,Alice,2024-01-27 00:00:00
+44,TCKT-1044,Medium,Open,Hardware,Access denied error,Automatically generated sample ticket record,2024-10-15,,Charlie,2024-10-15 00:00:00
+45,TCKT-1045,Low,Open,Hardware,VPN connection problem,Automatically generated sample ticket record,2024-03-18,,Alice,2024-03-18 00:00:00
+46,TCKT-1046,High,Open,Security,Access denied error,Automatically generated sample ticket record,2024-10-23,,David,2024-10-23 00:00:00
+47,TCKT-1047,High,Open,Network,Laptop not starting,Automatically generated sample ticket record,2024-04-16,,Hassan,2024-04-16 00:00:00
+48,TCKT-1048,Medium,In Progress,Security,VPN connection problem,Automatically generated sample ticket record,2024-08-21,,Hassan,2024-08-21 00:00:00
+49,TCKT-1049,High,Closed,Hardware,VPN connection problem,Automatically generated sample ticket record,2024-02-09,2024-02-19,Fatima,2024-02-09 00:00:00
+50,TCKT-1050,Critical,In Progress,Access,Antivirus alert,Automatically generated sample ticket record,2024-09-15,,Alice,2024-09-15 00:00:00
+51,TCKT-1051,Low,In Progress,Security,VPN connection problem,Automatically generated sample ticket record,2024-08-23,,Alice,2024-08-23 00:00:00
+52,TCKT-1052,Low,In Progress,Access,Cannot connect to WiFi,Automatically generated sample ticket record,2024-06-14,,Fatima,2024-06-14 00:00:00
+53,TCKT-1053,Critical,Open,Network,Laptop not starting,Automatically generated sample ticket record,2024-04-28,,Hassan,2024-04-28 00:00:00
+54,TCKT-1054,High,Resolved,Software,Access denied error,Automatically generated sample ticket record,2024-04-29,2024-05-07,Bob,2024-04-29 00:00:00
+55,TCKT-1055,High,Closed,Hardware,Access denied error,Automatically generated sample ticket record,2024-10-18,2024-10-19,David,2024-10-18 00:00:00
+56,TCKT-1056,Low,Closed,Network,VPN connection problem,Automatically generated sample ticket record,2024-04-23,2024-04-28,Ethan,2024-04-23 00:00:00
+57,TCKT-1057,Critical,In Progress,Software,Laptop not starting,Automatically generated sample ticket record,2024-03-20,,David,2024-03-20 00:00:00
+58,TCKT-1058,Critical,Closed,Security,Antivirus alert,Automatically generated sample ticket record,2024-06-29,2024-07-07,Bob,2024-06-29 00:00:00
+59,TCKT-1059,Low,In Progress,Network,Password reset request,Automatically generated sample ticket record,2024-10-22,,David,2024-10-22 00:00:00
+60,TCKT-1060,High,In Progress,Network,Email not syncing,Automatically generated sample ticket record,2024-08-20,,Hassan,2024-08-20 00:00:00
+61,TCKT-1061,High,Resolved,Security,Software installation issue,Automatically generated sample ticket record,2024-08-10,2024-08-11,David,2024-08-10 00:00:00
+62,TCKT-1062,Medium,Open,Security,VPN connection problem,Automatically generated sample ticket record,2024-04-12,,Charlie,2024-04-12 00:00:00
+63,TCKT-1063,Medium,Open,Software,Cannot connect to WiFi,Automatically generated sample ticket record,2024-04-17,,Ethan,2024-04-17 00:00:00
+64,TCKT-1064,Medium,In Progress,Access,Cannot connect to WiFi,Automatically generated sample ticket record,2024-01-04,,Ethan,2024-01-04 00:00:00
+65,TCKT-1065,Medium,Resolved,Hardware,Antivirus alert,Automatically generated sample ticket record,2024-06-07,2024-06-17,David,2024-06-07 00:00:00
+66,TCKT-1066,Low,In Progress,Software,Laptop not starting,Automatically generated sample ticket record,2024-01-03,,Fatima,2024-01-03 00:00:00
+67,TCKT-1067,Critical,Closed,Security,Software installation issue,Automatically generated sample ticket record,2024-03-27,2024-03-29,Fatima,2024-03-27 00:00:00
+68,TCKT-1068,Medium,Resolved,Security,System running slow,Automatically generated sample ticket record,2024-10-26,2024-11-05,Hassan,2024-10-26 00:00:00
+69,TCKT-1069,High,In Progress,Access,VPN connection problem,Automatically generated sample ticket record,2024-02-01,,Alice,2024-02-01 00:00:00
+70,TCKT-1070,Medium,In Progress,Security,Laptop not starting,Automatically generated sample ticket record,2024-01-10,,Ethan,2024-01-10 00:00:00
+71,TCKT-1071,Low,Resolved,Access,Cannot connect to WiFi,Automatically generated sample ticket record,2024-09-18,2024-09-27,Charlie,2024-09-18 00:00:00
+72,TCKT-1072,Critical,Resolved,Security,System running slow,Automatically generated sample ticket record,2024-09-10,2024-09-12,Charlie,2024-09-10 00:00:00
+73,TCKT-1073,Medium,In Progress,Access,Email not syncing,Automatically generated sample ticket record,2024-07-04,,Alice,2024-07-04 00:00:00
+74,TCKT-1074,Low,In Progress,Security,Antivirus alert,Automatically generated sample ticket record,2024-07-16,,Alice,2024-07-16 00:00:00
+75,TCKT-1075,Critical,In Progress,Access,System running slow,Automatically generated sample ticket record,2024-08-26,,Hassan,2024-08-26 00:00:00
+76,TCKT-1076,High,In Progress,Security,Password reset request,Automatically generated sample ticket record,2024-08-17,,Hassan,2024-08-17 00:00:00
+77,TCKT-1077,Critical,Resolved,Software,Software installation issue,Automatically generated sample ticket record,2024-04-26,2024-05-05,Fatima,2024-04-26 00:00:00
+78,TCKT-1078,Medium,Resolved,Network,Cannot connect to WiFi,Automatically generated sample ticket record,2024-06-19,2024-06-27,Alice,2024-06-19 00:00:00
+79,TCKT-1079,Critical,Closed,Software,Antivirus alert,Automatically generated sample ticket record,2024-04-17,2024-04-25,Bob,2024-04-17 00:00:00
+80,TCKT-1080,Low,In Progress,Software,System running slow,Automatically generated sample ticket record,2024-04-04,,Hassan,2024-04-04 00:00:00
+81,TCKT-1081,Critical,In Progress,Software,Email not syncing,Automatically generated sample ticket record,2024-01-16,,Hassan,2024-01-16 00:00:00
+82,TCKT-1082,Low,Closed,Network,Access denied error,Automatically generated sample ticket record,2024-07-12,2024-07-22,Hassan,2024-07-12 00:00:00
+83,TCKT-1083,Low,In Progress,Hardware,Access denied error,Automatically generated sample ticket record,2024-01-02,,David,2024-01-02 00:00:00
+84,TCKT-1084,Low,In Progress,Access,Cannot connect to WiFi,Automatically generated sample ticket record,2024-08-02,,Hassan,2024-08-02 00:00:00
+85,TCKT-1085,High,Open,Network,Access denied error,Automatically generated sample ticket record,2024-04-08,,Charlie,2024-04-08 00:00:00
+86,TCKT-1086,Critical,Resolved,Software,Antivirus alert,Automatically generated sample ticket record,2024-07-06,2024-07-09,Bob,2024-07-06 00:00:00
+87,TCKT-1087,High,Resolved,Security,Email not syncing,Automatically generated sample ticket record,2024-10-02,2024-10-07,Bob,2024-10-02 00:00:00
+88,TCKT-1088,Critical,Closed,Access,Access denied error,Automatically generated sample ticket record,2024-03-07,2024-03-16,Charlie,2024-03-07 00:00:00
+89,TCKT-1089,Medium,Closed,Security,Software installation issue,Automatically generated sample ticket record,2024-02-27,2024-03-05,Bob,2024-02-27 00:00:00
+90,TCKT-1090,Low,In Progress,Access,Cannot connect to WiFi,Automatically generated sample ticket record,2024-01-27,,Charlie,2024-01-27 00:00:00
+91,TCKT-1091,Medium,Closed,Hardware,System running slow,Automatically generated sample ticket record,2024-06-20,2024-06-25,Charlie,2024-06-20 00:00:00
+92,TCKT-1092,Medium,Open,Network,Laptop not starting,Automatically generated sample ticket record,2024-04-01,,Alice,2024-04-01 00:00:00
+93,TCKT-1093,Medium,Resolved,Network,Software installation issue,Automatically generated sample ticket record,2024-01-10,2024-01-16,David,2024-01-10 00:00:00
+94,TCKT-1094,High,Open,Network,Access denied error,Automatically generated sample ticket record,2024-07-26,,David,2024-07-26 00:00:00
+95,TCKT-1095,Critical,Closed,Access,Laptop not starting,Automatically generated sample ticket record,2024-08-20,2024-08-22,Hassan,2024-08-20 00:00:00
+96,TCKT-1096,Medium,Closed,Hardware,VPN connection problem,Automatically generated sample ticket record,2024-07-01,2024-07-04,Bob,2024-07-01 00:00:00
+97,TCKT-1097,High,Closed,Security,Email not syncing,Automatically generated sample ticket record,2024-02-13,2024-02-23,David,2024-02-13 00:00:00
+98,TCKT-1098,Low,Resolved,Security,Printer not working,Automatically generated sample ticket record,2024-05-24,2024-05-25,Alice,2024-05-24 00:00:00
+99,TCKT-1099,Medium,Closed,Hardware,Access denied error,Automatically generated sample ticket record,2024-09-28,2024-10-05,Ethan,2024-09-28 00:00:00
+100,TCKT-1100,Medium,In Progress,Access,Email not syncing,Automatically generated sample ticket record,2024-03-02,,Alice,2024-03-02 00:00:00
+101,TCKT-1101,Critical,Open,Hardware,Printer not working,Automatically generated sample ticket record,2024-08-31,,Fatima,2024-08-31 00:00:00
+102,TCKT-1102,Low,Open,Access,Laptop not starting,Automatically generated sample ticket record,2024-06-05,,Bob,2024-06-05 00:00:00
+103,TCKT-1103,Critical,In Progress,Software,Antivirus alert,Automatically generated sample ticket record,2024-06-20,,Fatima,2024-06-20 00:00:00
+104,TCKT-1104,Critical,In Progress,Network,Cannot connect to WiFi,Automatically generated sample ticket record,2024-05-30,,Charlie,2024-05-30 00:00:00
+105,TCKT-1105,Medium,Resolved,Software,Software installation issue,Automatically generated sample ticket record,2024-09-14,2024-09-17,Hassan,2024-09-14 00:00:00
+106,TCKT-1106,Medium,Closed,Software,Password reset request,Automatically generated sample ticket record,2024-08-03,2024-08-11,Ethan,2024-08-03 00:00:00
+107,TCKT-1107,Medium,Resolved,Software,Software installation issue,Automatically generated sample ticket record,2024-06-19,2024-06-21,Alice,2024-06-19 00:00:00
+108,TCKT-1108,Critical,Resolved,Network,Printer not working,Automatically generated sample ticket record,2024-06-09,2024-06-14,Ethan,2024-06-09 00:00:00
+109,TCKT-1109,Medium,Resolved,Security,Antivirus alert,Automatically generated sample ticket record,2024-08-11,2024-08-15,Ethan,2024-08-11 00:00:00
+110,TCKT-1110,High,Resolved,Hardware,System running slow,Automatically generated sample ticket record,2024-07-17,2024-07-22,David,2024-07-17 00:00:00
+111,TCKT-1111,Low,In Progress,Software,VPN connection problem,Automatically generated sample ticket record,2024-09-16,,Alice,2024-09-16 00:00:00
+112,TCKT-1112,High,Resolved,Network,Cannot connect to WiFi,Automatically generated sample ticket record,2024-04-13,2024-04-14,Fatima,2024-04-13 00:00:00
+113,TCKT-1113,Low,Closed,Access,Antivirus alert,Automatically generated sample ticket record,2024-04-17,2024-04-27,Ethan,2024-04-17 00:00:00
+114,TCKT-1114,Low,Resolved,Hardware,Access denied error,Automatically generated sample ticket record,2024-01-26,2024-02-05,Charlie,2024-01-26 00:00:00
+115,TCKT-1115,High,In Progress,Security,Printer not working,Automatically generated sample ticket record,2024-04-30,,Fatima,2024-04-30 00:00:00
+116,TCKT-1116,Critical,In Progress,Hardware,Antivirus alert,Automatically generated sample ticket record,2024-07-20,,Fatima,2024-07-20 00:00:00
+117,TCKT-1117,Critical,Closed,Software,Antivirus alert,Automatically generated sample ticket record,2024-05-19,2024-05-21,Hassan,2024-05-19 00:00:00
+118,TCKT-1118,Critical,Resolved,Access,Laptop not starting,Automatically generated sample ticket record,2024-03-02,2024-03-12,Charlie,2024-03-02 00:00:00
+119,TCKT-1119,High,Closed,Security,Access denied error,Automatically generated sample ticket record,2024-05-22,2024-05-31,Hassan,2024-05-22 00:00:00
+120,TCKT-1120,Low,Open,Software,Antivirus alert,Automatically generated sample ticket record,2024-03-05,,Fatima,2024-03-05 00:00:00
+121,TCKT-1121,High,Open,Network,Printer not working,Automatically generated sample ticket record,2024-07-25,,Hassan,2024-07-25 00:00:00
+122,TCKT-1122,Critical,Closed,Software,Email not syncing,Automatically generated sample ticket record,2024-03-15,2024-03-18,Hassan,2024-03-15 00:00:00
+123,TCKT-1123,Critical,In Progress,Access,Software installation issue,Automatically generated sample ticket record,2024-03-18,,Fatima,2024-03-18 00:00:00
+124,TCKT-1124,Medium,In Progress,Network,Software installation issue,Automatically generated sample ticket record,2024-06-04,,Charlie,2024-06-04 00:00:00
+125,TCKT-1125,Medium,Closed,Network,Email not syncing,Automatically generated sample ticket record,2024-03-20,2024-03-24,Charlie,2024-03-20 00:00:00
+126,TCKT-1126,Medium,Resolved,Security,Password reset request,Automatically generated sample ticket record,2024-10-17,2024-10-23,Ethan,2024-10-17 00:00:00
+127,TCKT-1127,Medium,Resolved,Software,Antivirus alert,Automatically generated sample ticket record,2024-04-19,2024-04-27,Fatima,2024-04-19 00:00:00
+128,TCKT-1128,Medium,Open,Network,System running slow,Automatically generated sample ticket record,2024-04-25,,David,2024-04-25 00:00:00
+129,TCKT-1129,Medium,Closed,Access,Printer not working,Automatically generated sample ticket record,2024-01-10,2024-01-15,Fatima,2024-01-10 00:00:00
+130,TCKT-1130,Medium,Closed,Network,Cannot connect to WiFi,Automatically generated sample ticket record,2024-09-24,2024-09-30,Charlie,2024-09-24 00:00:00
+131,TCKT-1131,Low,Resolved,Security,Cannot connect to WiFi,Automatically generated sample ticket record,2024-06-07,2024-06-11,David,2024-06-07 00:00:00
+132,TCKT-1132,Low,Open,Network,Software installation issue,Automatically generated sample ticket record,2024-03-05,,Charlie,2024-03-05 00:00:00
+133,TCKT-1133,Low,Resolved,Software,Printer not working,Automatically generated sample ticket record,2024-10-13,2024-10-19,Charlie,2024-10-13 00:00:00
+134,TCKT-1134,High,In Progress,Software,Password reset request,Automatically generated sample ticket record,2024-05-13,,Charlie,2024-05-13 00:00:00
+135,TCKT-1135,Low,Closed,Software,Access denied error,Automatically generated sample ticket record,2024-03-16,2024-03-25,Alice,2024-03-16 00:00:00
+136,TCKT-1136,Medium,Closed,Security,System running slow,Automatically generated sample ticket record,2024-08-31,2024-09-06,Ethan,2024-08-31 00:00:00
+137,TCKT-1137,Critical,Closed,Network,Software installation issue,Automatically generated sample ticket record,2024-06-10,2024-06-12,David,2024-06-10 00:00:00
+138,TCKT-1138,Low,Closed,Network,Cannot connect to WiFi,Automatically generated sample ticket record,2024-03-03,2024-03-05,Ethan,2024-03-03 00:00:00
+139,TCKT-1139,High,Open,Access,Email not syncing,Automatically generated sample ticket record,2024-03-24,,Alice,2024-03-24 00:00:00
+140,TCKT-1140,Medium,In Progress,Network,Antivirus alert,Automatically generated sample ticket record,2024-03-01,,Ethan,2024-03-01 00:00:00
+141,TCKT-1141,High,Closed,Hardware,VPN connection problem,Automatically generated sample ticket record,2024-10-03,2024-10-09,Ethan,2024-10-03 00:00:00
+142,TCKT-1142,Critical,Resolved,Access,Antivirus alert,Automatically generated sample ticket record,2024-03-23,2024-03-26,Charlie,2024-03-23 00:00:00
+143,TCKT-1143,Medium,Closed,Software,Printer not working,Automatically generated sample ticket record,2024-09-07,2024-09-08,Fatima,2024-09-07 00:00:00
+144,TCKT-1144,High,Resolved,Security,Antivirus alert,Automatically generated sample ticket record,2024-07-05,2024-07-07,Bob,2024-07-05 00:00:00
+145,TCKT-1145,High,Resolved,Access,Password reset request,Automatically generated sample ticket record,2024-03-18,2024-03-28,David,2024-03-18 00:00:00
+146,TCKT-1146,Low,In Progress,Security,System running slow,Automatically generated sample ticket record,2024-05-09,,Alice,2024-05-09 00:00:00
+147,TCKT-1147,High,Closed,Access,Antivirus alert,Automatically generated sample ticket record,2024-09-08,2024-09-09,Alice,2024-09-08 00:00:00
+148,TCKT-1148,Low,Resolved,Access,Access denied error,Automatically generated sample ticket record,2024-02-23,2024-02-26,Bob,2024-02-23 00:00:00
+149,TCKT-1149,High,Resolved,Software,Printer not working,Automatically generated sample ticket record,2024-01-30,2024-02-03,Ethan,2024-01-30 00:00:00
+150,TCKT-1150,Critical,Resolved,Software,Cannot connect to WiFi,Automatically generated sample ticket record,2024-09-01,2024-09-03,Bob,2024-09-01 00:00:00
+151,TCKT-1151,High,Closed,Hardware,Email not syncing,Automatically generated sample ticket record,2024-03-28,2024-04-05,Ethan,2024-03-28 00:00:00
+152,TCKT-1152,Critical,Closed,Software,Laptop not starting,Automatically generated sample ticket record,2024-06-25,2024-07-04,Hassan,2024-06-25 00:00:00
+153,TCKT-1153,High,Open,Software,Access denied error,Automatically generated sample ticket record,2024-10-23,,Ethan,2024-10-23 00:00:00
+154,TCKT-1154,Low,Closed,Access,Email not syncing,Automatically generated sample ticket record,2024-03-28,2024-04-06,Alice,2024-03-28 00:00:00
+155,TCKT-1155,Critical,Open,Software,Email not syncing,Automatically generated sample ticket record,2024-09-02,,Ethan,2024-09-02 00:00:00
+156,TCKT-1156,Low,In Progress,Software,Printer not working,Automatically generated sample ticket record,2024-05-19,,Hassan,2024-05-19 00:00:00
+157,TCKT-1157,Critical,Resolved,Software,Software installation issue,Automatically generated sample ticket record,2024-01-17,2024-01-26,Hassan,2024-01-17 00:00:00
+158,TCKT-1158,Medium,Open,Security,Laptop not starting,Automatically generated sample ticket record,2024-05-25,,Hassan,2024-05-25 00:00:00
+159,TCKT-1159,High,Open,Access,System running slow,Automatically generated sample ticket record,2024-05-06,,Hassan,2024-05-06 00:00:00
+160,TCKT-1160,High,Closed,Software,Software installation issue,Automatically generated sample ticket record,2024-04-24,2024-04-28,David,2024-04-24 00:00:00
+161,TCKT-1161,Low,Closed,Software,Cannot connect to WiFi,Automatically generated sample ticket record,2024-09-23,2024-09-26,David,2024-09-23 00:00:00
+162,TCKT-1162,High,Closed,Security,VPN connection problem,Automatically generated sample ticket record,2024-06-26,2024-07-06,Ethan,2024-06-26 00:00:00
+163,TCKT-1163,Medium,In Progress,Security,Laptop not starting,Automatically generated sample ticket record,2024-07-18,,Hassan,2024-07-18 00:00:00
+164,TCKT-1164,Medium,Closed,Software,Password reset request,Automatically generated sample ticket record,2024-10-21,2024-10-31,David,2024-10-21 00:00:00
+165,TCKT-1165,High,Resolved,Network,Antivirus alert,Automatically generated sample ticket record,2024-03-14,2024-03-16,Hassan,2024-03-14 00:00:00
+166,TCKT-1166,Low,In Progress,Access,Printer not working,Automatically generated sample ticket record,2024-09-20,,Ethan,2024-09-20 00:00:00
+167,TCKT-1167,Critical,In Progress,Software,Email not syncing,Automatically generated sample ticket record,2024-06-22,,Hassan,2024-06-22 00:00:00
+168,TCKT-1168,Medium,In Progress,Access,Software installation issue,Automatically generated sample ticket record,2024-07-21,,Hassan,2024-07-21 00:00:00
+169,TCKT-1169,High,Closed,Hardware,Laptop not starting,Automatically generated sample ticket record,2024-01-30,2024-02-09,Bob,2024-01-30 00:00:00
+170,TCKT-1170,High,Resolved,Network,Access denied error,Automatically generated sample ticket record,2024-04-04,2024-04-07,Alice,2024-04-04 00:00:00
+171,TCKT-1171,Critical,Open,Access,Software installation issue,Automatically generated sample ticket record,2024-02-21,,Bob,2024-02-21 00:00:00
+172,TCKT-1172,High,Closed,Access,VPN connection problem,Automatically generated sample ticket record,2024-06-22,2024-06-30,Hassan,2024-06-22 00:00:00
+173,TCKT-1173,Critical,Resolved,Hardware,Antivirus alert,Automatically generated sample ticket record,2024-05-08,2024-05-10,Bob,2024-05-08 00:00:00
+174,TCKT-1174,Medium,Closed,Network,Email not syncing,Automatically generated sample ticket record,2024-04-10,2024-04-18,Hassan,2024-04-10 00:00:00
+175,TCKT-1175,Low,Closed,Software,Printer not working,Automatically generated sample ticket record,2024-06-10,2024-06-13,Fatima,2024-06-10 00:00:00
+176,TCKT-1176,Low,Open,Security,Access denied error,Automatically generated sample ticket record,2024-09-30,,Bob,2024-09-30 00:00:00
+177,TCKT-1177,Critical,Resolved,Hardware,Laptop not starting,Automatically generated sample ticket record,2024-10-21,2024-10-30,Alice,2024-10-21 00:00:00
+178,TCKT-1178,Low,Closed,Access,Access denied error,Automatically generated sample ticket record,2024-08-17,2024-08-26,Charlie,2024-08-17 00:00:00
+179,TCKT-1179,Low,In Progress,Network,Cannot connect to WiFi,Automatically generated sample ticket record,2024-01-14,,Alice,2024-01-14 00:00:00
+180,TCKT-1180,Critical,In Progress,Access,System running slow,Automatically generated sample ticket record,2024-09-22,,Charlie,2024-09-22 00:00:00
+181,TCKT-1181,Medium,Closed,Software,Access denied error,Automatically generated sample ticket record,2024-04-16,2024-04-26,Alice,2024-04-16 00:00:00
+182,TCKT-1182,Critical,Resolved,Access,Email not syncing,Automatically generated sample ticket record,2024-10-17,2024-10-24,Alice,2024-10-17 00:00:00
+183,TCKT-1183,Low,Closed,Security,Access denied error,Automatically generated sample ticket record,2024-03-25,2024-04-01,Hassan,2024-03-25 00:00:00
+184,TCKT-1184,High,Resolved,Network,Cannot connect to WiFi,Automatically generated sample ticket record,2024-03-01,2024-03-09,David,2024-03-01 00:00:00
+185,TCKT-1185,Critical,Closed,Network,Cannot connect to WiFi,Automatically generated sample ticket record,2024-08-11,2024-08-17,Fatima,2024-08-11 00:00:00
+186,TCKT-1186,Medium,In Progress,Security,Software installation issue,Automatically generated sample ticket record,2024-05-05,,Bob,2024-05-05 00:00:00
+187,TCKT-1187,Low,Resolved,Network,Software installation issue,Automatically generated sample ticket record,2024-05-29,2024-06-06,Ethan,2024-05-29 00:00:00
+188,TCKT-1188,Medium,Closed,Network,Email not syncing,Automatically generated sample ticket record,2024-03-06,2024-03-11,Alice,2024-03-06 00:00:00
+189,TCKT-1189,Critical,In Progress,Software,Password reset request,Automatically generated sample ticket record,2024-04-22,,Hassan,2024-04-22 00:00:00
+190,TCKT-1190,Critical,Resolved,Software,System running slow,Automatically generated sample ticket record,2024-07-09,2024-07-10,David,2024-07-09 00:00:00
+191,TCKT-1191,High,In Progress,Software,Antivirus alert,Automatically generated sample ticket record,2024-08-11,,Alice,2024-08-11 00:00:00
+192,TCKT-1192,Low,Closed,Network,Printer not working,Automatically generated sample ticket record,2024-10-14,2024-10-21,David,2024-10-14 00:00:00
+193,TCKT-1193,Medium,Closed,Access,Antivirus alert,Automatically generated sample ticket record,2024-06-01,2024-06-07,Alice,2024-06-01 00:00:00
+194,TCKT-1194,Low,Open,Security,Printer not working,Automatically generated sample ticket record,2024-04-04,,David,2024-04-04 00:00:00
+195,TCKT-1195,High,Open,Network,System running slow,Automatically generated sample ticket record,2024-03-04,,Fatima,2024-03-04 00:00:00
+196,TCKT-1196,Low,Resolved,Security,Antivirus alert,Automatically generated sample ticket record,2024-01-15,2024-01-18,Alice,2024-01-15 00:00:00
+197,TCKT-1197,Medium,Closed,Security,Email not syncing,Automatically generated sample ticket record,2024-06-15,2024-06-17,Bob,2024-06-15 00:00:00
+198,TCKT-1198,High,In Progress,Security,Antivirus alert,Automatically generated sample ticket record,2024-01-14,,Hassan,2024-01-14 00:00:00
+199,TCKT-1199,Medium,Resolved,Network,System running slow,Automatically generated sample ticket record,2024-08-31,2024-09-06,Hassan,2024-08-31 00:00:00
+200,TCKT-1200,Low,Resolved,Network,VPN connection problem,Automatically generated sample ticket record,2024-04-10,2024-04-18,Charlie,2024-04-10 00:00:00
+201,TCKT-1201,High,Open,Network,Software installation issue,Automatically generated sample ticket record,2024-07-29,,Charlie,2024-07-29 00:00:00
+202,TCKT-1202,Critical,Closed,Network,Printer not working,Automatically generated sample ticket record,2024-10-24,2024-10-26,Fatima,2024-10-24 00:00:00
+203,TCKT-1203,Low,In Progress,Software,Email not syncing,Automatically generated sample ticket record,2024-05-14,,David,2024-05-14 00:00:00
+204,TCKT-1204,Medium,In Progress,Security,Password reset request,Automatically generated sample ticket record,2024-03-15,,Hassan,2024-03-15 00:00:00
+205,TCKT-1205,Medium,Open,Network,Antivirus alert,Automatically generated sample ticket record,2024-05-28,,David,2024-05-28 00:00:00
+206,TCKT-1206,Medium,In Progress,Network,Printer not working,Automatically generated sample ticket record,2024-06-22,,Alice,2024-06-22 00:00:00
+207,TCKT-1207,Critical,Closed,Hardware,Access denied error,Automatically generated sample ticket record,2024-08-15,2024-08-17,David,2024-08-15 00:00:00
+208,TCKT-1208,Critical,Closed,Hardware,Email not syncing,Automatically generated sample ticket record,2024-01-04,2024-01-09,Bob,2024-01-04 00:00:00
+209,TCKT-1209,Medium,In Progress,Hardware,Access denied error,Automatically generated sample ticket record,2024-03-02,,Hassan,2024-03-02 00:00:00
+210,TCKT-1210,Medium,In Progress,Access,Access denied error,Automatically generated sample ticket record,2024-09-21,,Alice,2024-09-21 00:00:00
+211,TCKT-1211,Medium,In Progress,Access,Laptop not starting,Automatically generated sample ticket record,2024-06-30,,Bob,2024-06-30 00:00:00
+212,TCKT-1212,Low,Closed,Software,Password reset request,Automatically generated sample ticket record,2024-10-05,2024-10-06,Hassan,2024-10-05 00:00:00
+213,TCKT-1213,Low,In Progress,Hardware,Antivirus alert,Automatically generated sample ticket record,2024-08-08,,Bob,2024-08-08 00:00:00
+214,TCKT-1214,Critical,Closed,Network,Laptop not starting,Automatically generated sample ticket record,2024-02-02,2024-02-04,Ethan,2024-02-02 00:00:00
+215,TCKT-1215,Critical,In Progress,Access,Email not syncing,Automatically generated sample ticket record,2024-01-28,,Hassan,2024-01-28 00:00:00
+216,TCKT-1216,High,Open,Network,VPN connection problem,Automatically generated sample ticket record,2024-03-21,,Ethan,2024-03-21 00:00:00
+217,TCKT-1217,Medium,Resolved,Network,VPN connection problem,Automatically generated sample ticket record,2024-05-09,2024-05-14,Hassan,2024-05-09 00:00:00
+218,TCKT-1218,Medium,In Progress,Security,Antivirus alert,Automatically generated sample ticket record,2024-05-27,,Fatima,2024-05-27 00:00:00
+219,TCKT-1219,Low,Closed,Hardware,VPN connection problem,Automatically generated sample ticket record,2024-09-29,2024-10-04,Bob,2024-09-29 00:00:00
+220,TCKT-1220,Medium,Open,Hardware,Laptop not starting,Automatically generated sample ticket record,2024-03-08,,Hassan,2024-03-08 00:00:00
+221,TCKT-1221,High,Closed,Hardware,Cannot connect to WiFi,Automatically generated sample ticket record,2024-08-19,2024-08-24,Hassan,2024-08-19 00:00:00
+222,TCKT-1222,High,Open,Access,VPN connection problem,Automatically generated sample ticket record,2024-06-14,,David,2024-06-14 00:00:00
+223,TCKT-1223,Low,In Progress,Software,Cannot connect to WiFi,Automatically generated sample ticket record,2024-03-06,,Fatima,2024-03-06 00:00:00
+224,TCKT-1224,Medium,Open,Software,Email not syncing,Automatically generated sample ticket record,2024-07-03,,Fatima,2024-07-03 00:00:00
+225,TCKT-1225,Medium,Closed,Security,Antivirus alert,Automatically generated sample ticket record,2024-06-18,2024-06-28,Alice,2024-06-18 00:00:00
+226,TCKT-1226,Medium,Resolved,Hardware,Cannot connect to WiFi,Automatically generated sample ticket record,2024-02-17,2024-02-26,Hassan,2024-02-17 00:00:00
+227,TCKT-1227,High,Closed,Access,Software installation issue,Automatically generated sample ticket record,2024-08-17,2024-08-21,Hassan,2024-08-17 00:00:00
+228,TCKT-1228,Low,Closed,Access,Access denied error,Automatically generated sample ticket record,2024-03-01,2024-03-04,Hassan,2024-03-01 00:00:00
+229,TCKT-1229,Medium,In Progress,Software,Printer not working,Automatically generated sample ticket record,2024-05-22,,Fatima,2024-05-22 00:00:00
+230,TCKT-1230,Low,Open,Access,Printer not working,Automatically generated sample ticket record,2024-10-06,,David,2024-10-06 00:00:00
+231,TCKT-1231,Critical,Open,Hardware,Access denied error,Automatically generated sample ticket record,2024-02-28,,Fatima,2024-02-28 00:00:00
+232,TCKT-1232,Low,Closed,Security,Cannot connect to WiFi,Automatically generated sample ticket record,2024-02-21,2024-02-29,Bob,2024-02-21 00:00:00
+233,TCKT-1233,High,Open,Security,Email not syncing,Automatically generated sample ticket record,2024-04-14,,Ethan,2024-04-14 00:00:00
+234,TCKT-1234,High,Open,Network,Access denied error,Automatically generated sample ticket record,2024-10-08,,Ethan,2024-10-08 00:00:00
+235,TCKT-1235,Low,Open,Network,System running slow,Automatically generated sample ticket record,2024-01-14,,David,2024-01-14 00:00:00
+236,TCKT-1236,High,Open,Hardware,Printer not working,Automatically generated sample ticket record,2024-09-11,,Hassan,2024-09-11 00:00:00
+237,TCKT-1237,Low,Open,Hardware,Antivirus alert,Automatically generated sample ticket record,2024-08-15,,Charlie,2024-08-15 00:00:00
+238,TCKT-1238,Medium,Open,Security,Password reset request,Automatically generated sample ticket record,2024-07-13,,Alice,2024-07-13 00:00:00
+239,TCKT-1239,Medium,In Progress,Hardware,VPN connection problem,Automatically generated sample ticket record,2024-10-16,,Charlie,2024-10-16 00:00:00
+240,TCKT-1240,Medium,Open,Software,Email not syncing,Automatically generated sample ticket record,2024-04-03,,Ethan,2024-04-03 00:00:00
+241,TCKT-1241,Low,Resolved,Network,Password reset request,Automatically generated sample ticket record,2024-09-11,2024-09-21,Charlie,2024-09-11 00:00:00
+242,TCKT-1242,Medium,In Progress,Security,Password reset request,Automatically generated sample ticket record,2024-05-15,,Ethan,2024-05-15 00:00:00
+243,TCKT-1243,Critical,Resolved,Hardware,Access denied error,Automatically generated sample ticket record,2024-04-18,2024-04-23,Bob,2024-04-18 00:00:00
+244,TCKT-1244,High,Closed,Network,VPN connection problem,Automatically generated sample ticket record,2024-01-31,2024-02-01,Alice,2024-01-31 00:00:00
+245,TCKT-1245,Low,Open,Access,Antivirus alert,Automatically generated sample ticket record,2024-03-25,,Fatima,2024-03-25 00:00:00
+246,TCKT-1246,High,Resolved,Hardware,System running slow,Automatically generated sample ticket record,2024-08-06,2024-08-08,Bob,2024-08-06 00:00:00
+247,TCKT-1247,High,In Progress,Access,VPN connection problem,Automatically generated sample ticket record,2024-06-21,,Hassan,2024-06-21 00:00:00
+248,TCKT-1248,Medium,In Progress,Security,Antivirus alert,Automatically generated sample ticket record,2024-06-12,,Ethan,2024-06-12 00:00:00
+249,TCKT-1249,Low,Closed,Security,Printer not working,Automatically generated sample ticket record,2024-09-01,2024-09-02,Charlie,2024-09-01 00:00:00
+250,TCKT-1250,High,Resolved,Security,VPN connection problem,Automatically generated sample ticket record,2024-07-31,2024-08-07,Fatima,2024-07-31 00:00:00
+251,TCKT-1251,Medium,Closed,Security,Password reset request,Automatically generated sample ticket record,2024-02-23,2024-02-28,Bob,2024-02-23 00:00:00
+252,TCKT-1252,High,Open,Hardware,Cannot connect to WiFi,Automatically generated sample ticket record,2024-06-05,,Bob,2024-06-05 00:00:00
+253,TCKT-1253,High,Open,Hardware,Laptop not starting,Automatically generated sample ticket record,2024-02-16,,Bob,2024-02-16 00:00:00
+254,TCKT-1254,Medium,In Progress,Network,Antivirus alert,Automatically generated sample ticket record,2024-01-15,,Ethan,2024-01-15 00:00:00
+255,TCKT-1255,High,Closed,Network,Email not syncing,Automatically generated sample ticket record,2024-06-14,2024-06-24,Bob,2024-06-14 00:00:00
+256,TCKT-1256,Critical,Resolved,Security,VPN connection problem,Automatically generated sample ticket record,2024-05-24,2024-05-30,Alice,2024-05-24 00:00:00
+257,TCKT-1257,Low,Open,Security,Access denied error,Automatically generated sample ticket record,2024-07-12,,Ethan,2024-07-12 00:00:00
+258,TCKT-1258,Medium,Open,Security,VPN connection problem,Automatically generated sample ticket record,2024-03-07,,Fatima,2024-03-07 00:00:00
+259,TCKT-1259,High,Open,Hardware,Antivirus alert,Automatically generated sample ticket record,2024-09-13,,Hassan,2024-09-13 00:00:00
+260,TCKT-1260,Medium,Resolved,Security,Password reset request,Automatically generated sample ticket record,2024-02-21,2024-02-25,Charlie,2024-02-21 00:00:00
+261,TCKT-1261,Medium,In Progress,Network,Cannot connect to WiFi,Automatically generated sample ticket record,2024-01-14,,Hassan,2024-01-14 00:00:00
+262,TCKT-1262,High,Open,Access,Software installation issue,Automatically generated sample ticket record,2024-01-14,,David,2024-01-14 00:00:00
+263,TCKT-1263,High,Resolved,Software,Antivirus alert,Automatically generated sample ticket record,2024-03-26,2024-03-28,Ethan,2024-03-26 00:00:00
+264,TCKT-1264,High,Resolved,Software,Cannot connect to WiFi,Automatically generated sample ticket record,2024-08-06,2024-08-11,Charlie,2024-08-06 00:00:00
+265,TCKT-1265,High,Open,Software,Access denied error,Automatically generated sample ticket record,2024-03-15,,Alice,2024-03-15 00:00:00
+266,TCKT-1266,Critical,Resolved,Access,Cannot connect to WiFi,Automatically generated sample ticket record,2024-02-19,2024-02-24,David,2024-02-19 00:00:00
+267,TCKT-1267,Low,Closed,Security,Cannot connect to WiFi,Automatically generated sample ticket record,2024-10-03,2024-10-13,Hassan,2024-10-03 00:00:00
+268,TCKT-1268,High,In Progress,Access,Printer not working,Automatically generated sample ticket record,2024-09-19,,Ethan,2024-09-19 00:00:00
+269,TCKT-1269,Critical,Open,Software,Printer not working,Automatically generated sample ticket record,2024-07-17,,Fatima,2024-07-17 00:00:00
+270,TCKT-1270,Low,Closed,Network,Cannot connect to WiFi,Automatically generated sample ticket record,2024-03-03,2024-03-09,Hassan,2024-03-03 00:00:00
+271,TCKT-1271,High,In Progress,Security,Laptop not starting,Automatically generated sample ticket record,2024-03-27,,Alice,2024-03-27 00:00:00
+272,TCKT-1272,Medium,Closed,Security,Email not syncing,Automatically generated sample ticket record,2024-01-27,2024-01-30,Ethan,2024-01-27 00:00:00
+273,TCKT-1273,Medium,Open,Access,Printer not working,Automatically generated sample ticket record,2024-03-27,,David,2024-03-27 00:00:00
+274,TCKT-1274,Low,Closed,Access,Software installation issue,Automatically generated sample ticket record,2024-02-02,2024-02-12,Bob,2024-02-02 00:00:00
+275,TCKT-1275,Low,Resolved,Security,Software installation issue,Automatically generated sample ticket record,2024-02-19,2024-02-29,Hassan,2024-02-19 00:00:00
+276,TCKT-1276,High,Resolved,Network,Cannot connect to WiFi,Automatically generated sample ticket record,2024-02-12,2024-02-22,Hassan,2024-02-12 00:00:00
+277,TCKT-1277,Critical,In Progress,Security,Software installation issue,Automatically generated sample ticket record,2024-03-11,,Charlie,2024-03-11 00:00:00
+278,TCKT-1278,Medium,Open,Network,Antivirus alert,Automatically generated sample ticket record,2024-09-18,,Ethan,2024-09-18 00:00:00
+279,TCKT-1279,High,Resolved,Software,Email not syncing,Automatically generated sample ticket record,2024-10-12,2024-10-22,Alice,2024-10-12 00:00:00
+280,TCKT-1280,Medium,In Progress,Software,Laptop not starting,Automatically generated sample ticket record,2024-02-04,,Ethan,2024-02-04 00:00:00
+281,TCKT-1281,High,Resolved,Access,Laptop not starting,Automatically generated sample ticket record,2024-02-12,2024-02-20,Bob,2024-02-12 00:00:00
+282,TCKT-1282,Low,Resolved,Hardware,Password reset request,Automatically generated sample ticket record,2024-09-05,2024-09-13,Charlie,2024-09-05 00:00:00
+283,TCKT-1283,Medium,Resolved,Network,Antivirus alert,Automatically generated sample ticket record,2024-09-06,2024-09-14,Bob,2024-09-06 00:00:00
+284,TCKT-1284,Low,Closed,Software,Access denied error,Automatically generated sample ticket record,2024-07-14,2024-07-15,Bob,2024-07-14 00:00:00
+285,TCKT-1285,Medium,Closed,Network,Cannot connect to WiFi,Automatically generated sample ticket record,2024-03-12,2024-03-13,Alice,2024-03-12 00:00:00
+286,TCKT-1286,Critical,Open,Access,Access denied error,Automatically generated sample ticket record,2024-07-14,,Ethan,2024-07-14 00:00:00
+287,TCKT-1287,Medium,Closed,Hardware,Cannot connect to WiFi,Automatically generated sample ticket record,2024-03-18,2024-03-20,Ethan,2024-03-18 00:00:00
+288,TCKT-1288,High,In Progress,Security,Printer not working,Automatically generated sample ticket record,2024-02-04,,Fatima,2024-02-04 00:00:00
+289,TCKT-1289,Low,Open,Network,Software installation issue,Automatically generated sample ticket record,2024-08-24,,David,2024-08-24 00:00:00
+290,TCKT-1290,Critical,Open,Network,Cannot connect to WiFi,Automatically generated sample ticket record,2024-03-23,,Bob,2024-03-23 00:00:00
+291,TCKT-1291,Medium,Open,Network,Password reset request,Automatically generated sample ticket record,2024-04-03,,Hassan,2024-04-03 00:00:00
+292,TCKT-1292,Medium,Open,Security,Printer not working,Automatically generated sample ticket record,2024-09-01,,Bob,2024-09-01 00:00:00
+293,TCKT-1293,Low,In Progress,Access,Antivirus alert,Automatically generated sample ticket record,2024-01-26,,Hassan,2024-01-26 00:00:00
+294,TCKT-1294,High,In Progress,Security,VPN connection problem,Automatically generated sample ticket record,2024-02-04,,Alice,2024-02-04 00:00:00
+295,TCKT-1295,Medium,In Progress,Software,System running slow,Automatically generated sample ticket record,2024-03-08,,Alice,2024-03-08 00:00:00
+296,TCKT-1296,Low,Closed,Security,VPN connection problem,Automatically generated sample ticket record,2024-04-07,2024-04-15,Charlie,2024-04-07 00:00:00
+297,TCKT-1297,Medium,In Progress,Access,Laptop not starting,Automatically generated sample ticket record,2024-09-22,,Bob,2024-09-22 00:00:00
+298,TCKT-1298,Medium,In Progress,Software,Password reset request,Automatically generated sample ticket record,2024-08-22,,Fatima,2024-08-22 00:00:00
+299,TCKT-1299,Critical,Closed,Security,Software installation issue,Automatically generated sample ticket record,2024-01-03,2024-01-04,David,2024-01-03 00:00:00
+300,TCKT-1300,Critical,In Progress,Access,Antivirus alert,Automatically generated sample ticket record,2024-05-29,,Bob,2024-05-29 00:00:00
+301,TCKT-1301,High,Resolved,Hardware,Cannot connect to WiFi,Automatically generated sample ticket record,2024-08-27,2024-08-31,Charlie,2024-08-27 00:00:00
+302,TCKT-1302,Critical,Open,Security,System running slow,Automatically generated sample ticket record,2024-06-03,,Ethan,2024-06-03 00:00:00
+303,TCKT-1303,Critical,Open,Network,VPN connection problem,Automatically generated sample ticket record,2024-06-30,,Bob,2024-06-30 00:00:00
+304,TCKT-1304,Critical,Resolved,Network,VPN connection problem,Automatically generated sample ticket record,2024-07-22,2024-07-25,Charlie,2024-07-22 00:00:00
+305,TCKT-1305,High,Open,Network,System running slow,Automatically generated sample ticket record,2024-05-22,,Bob,2024-05-22 00:00:00
+306,TCKT-1306,Critical,Resolved,Hardware,Printer not working,Automatically generated sample ticket record,2024-08-27,2024-08-30,Hassan,2024-08-27 00:00:00
+307,TCKT-1307,Medium,Closed,Software,Password reset request,Automatically generated sample ticket record,2024-10-05,2024-10-12,Alice,2024-10-05 00:00:00
+308,TCKT-1308,High,In Progress,Security,Cannot connect to WiFi,Automatically generated sample ticket record,2024-09-10,,Ethan,2024-09-10 00:00:00
+309,TCKT-1309,Low,Resolved,Software,Password reset request,Automatically generated sample ticket record,2024-05-27,2024-05-29,Alice,2024-05-27 00:00:00
+310,TCKT-1310,Low,Resolved,Security,Cannot connect to WiFi,Automatically generated sample ticket record,2024-03-22,2024-03-28,Alice,2024-03-22 00:00:00
+311,TCKT-1311,High,Resolved,Hardware,Software installation issue,Automatically generated sample ticket record,2024-08-25,2024-08-26,Bob,2024-08-25 00:00:00
+312,TCKT-1312,Medium,Open,Software,Software installation issue,Automatically generated sample ticket record,2024-03-17,,Hassan,2024-03-17 00:00:00
+313,TCKT-1313,Medium,Resolved,Hardware,Antivirus alert,Automatically generated sample ticket record,2024-09-13,2024-09-17,Fatima,2024-09-13 00:00:00
+314,TCKT-1314,Low,Open,Access,Password reset request,Automatically generated sample ticket record,2024-01-10,,Hassan,2024-01-10 00:00:00
+315,TCKT-1315,Medium,In Progress,Network,Cannot connect to WiFi,Automatically generated sample ticket record,2024-01-10,,Hassan,2024-01-10 00:00:00
+316,TCKT-1316,Low,Resolved,Hardware,Software installation issue,Automatically generated sample ticket record,2024-04-25,2024-04-30,Fatima,2024-04-25 00:00:00
+317,TCKT-1317,Critical,Closed,Security,Access denied error,Automatically generated sample ticket record,2024-06-02,2024-06-03,Alice,2024-06-02 00:00:00
+318,TCKT-1318,Low,Closed,Software,Email not syncing,Automatically generated sample ticket record,2024-07-30,2024-08-08,Charlie,2024-07-30 00:00:00
+319,TCKT-1319,High,Closed,Hardware,VPN connection problem,Automatically generated sample ticket record,2024-02-04,2024-02-05,Fatima,2024-02-04 00:00:00
+320,TCKT-1320,Low,In Progress,Network,Password reset request,Automatically generated sample ticket record,2024-07-23,,Bob,2024-07-23 00:00:00
+321,TCKT-1321,Medium,Open,Network,Printer not working,Automatically generated sample ticket record,2024-02-07,,Hassan,2024-02-07 00:00:00
+322,TCKT-1322,Low,Open,Hardware,Antivirus alert,Automatically generated sample ticket record,2024-02-21,,Ethan,2024-02-21 00:00:00
+323,TCKT-1323,Critical,In Progress,Software,Access denied error,Automatically generated sample ticket record,2024-04-23,,Fatima,2024-04-23 00:00:00
+324,TCKT-1324,Critical,In Progress,Hardware,System running slow,Automatically generated sample ticket record,2024-06-04,,David,2024-06-04 00:00:00
+325,TCKT-1325,High,Resolved,Access,Access denied error,Automatically generated sample ticket record,2024-02-19,2024-02-27,David,2024-02-19 00:00:00
+326,TCKT-1326,Critical,Open,Security,Email not syncing,Automatically generated sample ticket record,2024-01-01,,Charlie,2024-01-01 00:00:00
+327,TCKT-1327,Low,In Progress,Security,Access denied error,Automatically generated sample ticket record,2024-01-13,,Bob,2024-01-13 00:00:00
+328,TCKT-1328,Critical,Resolved,Software,Printer not working,Automatically generated sample ticket record,2024-04-17,2024-04-27,Fatima,2024-04-17 00:00:00
+329,TCKT-1329,Critical,Open,Hardware,Software installation issue,Automatically generated sample ticket record,2024-10-20,,Fatima,2024-10-20 00:00:00
+330,TCKT-1330,Low,Closed,Access,Email not syncing,Automatically generated sample ticket record,2024-06-02,2024-06-09,Charlie,2024-06-02 00:00:00
+331,TCKT-1331,High,Resolved,Access,Printer not working,Automatically generated sample ticket record,2024-04-06,2024-04-09,David,2024-04-06 00:00:00
+332,TCKT-1332,High,Resolved,Software,System running slow,Automatically generated sample ticket record,2024-01-03,2024-01-08,Hassan,2024-01-03 00:00:00
+333,TCKT-1333,Low,Closed,Software,System running slow,Automatically generated sample ticket record,2024-03-28,2024-04-06,Alice,2024-03-28 00:00:00
+334,TCKT-1334,High,Closed,Network,Printer not working,Automatically generated sample ticket record,2024-04-25,2024-04-27,Hassan,2024-04-25 00:00:00
+335,TCKT-1335,Medium,Open,Hardware,Access denied error,Automatically generated sample ticket record,2024-07-18,,Ethan,2024-07-18 00:00:00
+336,TCKT-1336,Critical,In Progress,Network,Software installation issue,Automatically generated sample ticket record,2024-09-23,,Ethan,2024-09-23 00:00:00
+337,TCKT-1337,Critical,Resolved,Network,Email not syncing,Automatically generated sample ticket record,2024-03-10,2024-03-14,Alice,2024-03-10 00:00:00
+338,TCKT-1338,Low,Resolved,Hardware,Laptop not starting,Automatically generated sample ticket record,2024-06-18,2024-06-28,Bob,2024-06-18 00:00:00
+339,TCKT-1339,High,Open,Hardware,Antivirus alert,Automatically generated sample ticket record,2024-04-13,,Hassan,2024-04-13 00:00:00
+340,TCKT-1340,Medium,Resolved,Software,Email not syncing,Automatically generated sample ticket record,2024-06-30,2024-07-04,Ethan,2024-06-30 00:00:00
+341,TCKT-1341,High,In Progress,Security,Printer not working,Automatically generated sample ticket record,2024-09-17,,Fatima,2024-09-17 00:00:00
+342,TCKT-1342,Critical,Closed,Hardware,Software installation issue,Automatically generated sample ticket record,2024-10-11,2024-10-13,Hassan,2024-10-11 00:00:00
+343,TCKT-1343,Low,Resolved,Network,Email not syncing,Automatically generated sample ticket record,2024-06-11,2024-06-16,Charlie,2024-06-11 00:00:00
+344,TCKT-1344,Medium,Resolved,Software,Antivirus alert,Automatically generated sample ticket record,2024-10-11,2024-10-12,Charlie,2024-10-11 00:00:00
+345,TCKT-1345,Critical,In Progress,Security,Access denied error,Automatically generated sample ticket record,2024-06-12,,Alice,2024-06-12 00:00:00
+346,TCKT-1346,Critical,Closed,Access,Access denied error,Automatically generated sample ticket record,2024-06-20,2024-06-21,David,2024-06-20 00:00:00
+347,TCKT-1347,Medium,Resolved,Network,VPN connection problem,Automatically generated sample ticket record,2024-08-08,2024-08-18,Bob,2024-08-08 00:00:00
+348,TCKT-1348,Medium,Closed,Access,Software installation issue,Automatically generated sample ticket record,2024-05-05,2024-05-09,David,2024-05-05 00:00:00
+349,TCKT-1349,Critical,Closed,Security,Access denied error,Automatically generated sample ticket record,2024-09-09,2024-09-18,Alice,2024-09-09 00:00:00
+350,TCKT-1350,High,In Progress,Network,Password reset request,Automatically generated sample ticket record,2024-05-23,,Fatima,2024-05-23 00:00:00
+351,TCKT-1351,High,In Progress,Access,Laptop not starting,Automatically generated sample ticket record,2024-01-18,,Alice,2024-01-18 00:00:00
+352,TCKT-1352,Medium,Resolved,Hardware,Cannot connect to WiFi,Automatically generated sample ticket record,2024-09-22,2024-09-28,Hassan,2024-09-22 00:00:00
+353,TCKT-1353,High,Open,Software,Laptop not starting,Automatically generated sample ticket record,2024-05-20,,Ethan,2024-05-20 00:00:00
+354,TCKT-1354,Medium,In Progress,Access,Access denied error,Automatically generated sample ticket record,2024-06-26,,David,2024-06-26 00:00:00
+355,TCKT-1355,High,In Progress,Software,Antivirus alert,Automatically generated sample ticket record,2024-08-01,,Ethan,2024-08-01 00:00:00
+356,TCKT-1356,Low,Resolved,Access,Laptop not starting,Automatically generated sample ticket record,2024-09-01,2024-09-08,Hassan,2024-09-01 00:00:00
+357,TCKT-1357,Critical,In Progress,Hardware,Access denied error,Automatically generated sample ticket record,2024-04-07,,David,2024-04-07 00:00:00
+358,TCKT-1358,High,Closed,Hardware,Cannot connect to WiFi,Automatically generated sample ticket record,2024-09-21,2024-09-26,Bob,2024-09-21 00:00:00
+359,TCKT-1359,High,In Progress,Access,Laptop not starting,Automatically generated sample ticket record,2024-08-26,,Fatima,2024-08-26 00:00:00
+360,TCKT-1360,Low,Resolved,Software,VPN connection problem,Automatically generated sample ticket record,2024-08-05,2024-08-07,Alice,2024-08-05 00:00:00
+361,TCKT-1361,Critical,Open,Hardware,Laptop not starting,Automatically generated sample ticket record,2024-05-17,,Ethan,2024-05-17 00:00:00
+362,TCKT-1362,High,Resolved,Network,Antivirus alert,Automatically generated sample ticket record,2024-05-03,2024-05-11,Fatima,2024-05-03 00:00:00
+363,TCKT-1363,Medium,In Progress,Hardware,Access denied error,Automatically generated sample ticket record,2024-05-03,,Alice,2024-05-03 00:00:00
+364,TCKT-1364,Low,In Progress,Hardware,Printer not working,Automatically generated sample ticket record,2024-01-26,,Alice,2024-01-26 00:00:00
+365,TCKT-1365,Low,Resolved,Security,Laptop not starting,Automatically generated sample ticket record,2024-06-06,2024-06-07,Hassan,2024-06-06 00:00:00
+366,TCKT-1366,High,Open,Access,Access denied error,Automatically generated sample ticket record,2024-01-03,,Ethan,2024-01-03 00:00:00
+367,TCKT-1367,Medium,Open,Security,Laptop not starting,Automatically generated sample ticket record,2024-05-08,,David,2024-05-08 00:00:00
+368,TCKT-1368,High,In Progress,Access,Password reset request,Automatically generated sample ticket record,2024-09-06,,Ethan,2024-09-06 00:00:00
+369,TCKT-1369,Low,Open,Security,Cannot connect to WiFi,Automatically generated sample ticket record,2024-06-12,,Alice,2024-06-12 00:00:00
+370,TCKT-1370,Medium,Open,Access,Software installation issue,Automatically generated sample ticket record,2024-06-25,,Alice,2024-06-25 00:00:00
+371,TCKT-1371,High,Closed,Security,Password reset request,Automatically generated sample ticket record,2024-06-05,2024-06-08,Ethan,2024-06-05 00:00:00
+372,TCKT-1372,Low,Open,Hardware,System running slow,Automatically generated sample ticket record,2024-05-16,,Charlie,2024-05-16 00:00:00
+373,TCKT-1373,Critical,In Progress,Network,Password reset request,Automatically generated sample ticket record,2024-03-14,,David,2024-03-14 00:00:00
+374,TCKT-1374,High,Open,Hardware,Laptop not starting,Automatically generated sample ticket record,2024-01-03,,Charlie,2024-01-03 00:00:00
+375,TCKT-1375,Critical,Resolved,Hardware,Printer not working,Automatically generated sample ticket record,2024-06-14,2024-06-19,Ethan,2024-06-14 00:00:00
+376,TCKT-1376,High,Open,Hardware,Access denied error,Automatically generated sample ticket record,2024-04-29,,Charlie,2024-04-29 00:00:00
+377,TCKT-1377,Low,Resolved,Software,Antivirus alert,Automatically generated sample ticket record,2024-05-17,2024-05-24,Hassan,2024-05-17 00:00:00
+378,TCKT-1378,Low,Closed,Software,Antivirus alert,Automatically generated sample ticket record,2024-03-18,2024-03-26,Bob,2024-03-18 00:00:00
+379,TCKT-1379,High,Open,Software,Software installation issue,Automatically generated sample ticket record,2024-05-05,,Fatima,2024-05-05 00:00:00
+380,TCKT-1380,High,Open,Software,Email not syncing,Automatically generated sample ticket record,2024-05-27,,Charlie,2024-05-27 00:00:00
+381,TCKT-1381,Critical,Closed,Access,Antivirus alert,Automatically generated sample ticket record,2024-10-05,2024-10-06,Ethan,2024-10-05 00:00:00
+382,TCKT-1382,High,Closed,Security,System running slow,Automatically generated sample ticket record,2024-04-14,2024-04-20,Ethan,2024-04-14 00:00:00
+383,TCKT-1383,Critical,In Progress,Network,Printer not working,Automatically generated sample ticket record,2024-06-17,,David,2024-06-17 00:00:00
+384,TCKT-1384,High,In Progress,Hardware,Laptop not starting,Automatically generated sample ticket record,2024-09-11,,Bob,2024-09-11 00:00:00
+385,TCKT-1385,Critical,In Progress,Hardware,Laptop not starting,Automatically generated sample ticket record,2024-03-26,,Hassan,2024-03-26 00:00:00
+386,TCKT-1386,High,Open,Access,System running slow,Automatically generated sample ticket record,2024-07-05,,David,2024-07-05 00:00:00
+387,TCKT-1387,High,In Progress,Software,Software installation issue,Automatically generated sample ticket record,2024-07-09,,Bob,2024-07-09 00:00:00
+388,TCKT-1388,Critical,Closed,Security,Antivirus alert,Automatically generated sample ticket record,2024-08-29,2024-09-04,Fatima,2024-08-29 00:00:00
+389,TCKT-1389,Critical,Resolved,Security,Password reset request,Automatically generated sample ticket record,2024-06-21,2024-06-22,Fatima,2024-06-21 00:00:00
+390,TCKT-1390,Critical,Open,Access,VPN connection problem,Automatically generated sample ticket record,2024-05-31,,David,2024-05-31 00:00:00
+391,TCKT-1391,Critical,Closed,Network,Software installation issue,Automatically generated sample ticket record,2024-10-20,2024-10-29,Ethan,2024-10-20 00:00:00
+392,TCKT-1392,High,In Progress,Access,Password reset request,Automatically generated sample ticket record,2024-02-06,,Fatima,2024-02-06 00:00:00
+393,TCKT-1393,Low,Closed,Access,System running slow,Automatically generated sample ticket record,2024-08-10,2024-08-16,Alice,2024-08-10 00:00:00
+394,TCKT-1394,Medium,Closed,Access,Antivirus alert,Automatically generated sample ticket record,2024-03-16,2024-03-19,Ethan,2024-03-16 00:00:00
+395,TCKT-1395,Critical,In Progress,Hardware,Printer not working,Automatically generated sample ticket record,2024-10-04,,Hassan,2024-10-04 00:00:00
+396,TCKT-1396,Low,In Progress,Software,Antivirus alert,Automatically generated sample ticket record,2024-09-16,,Hassan,2024-09-16 00:00:00
+397,TCKT-1397,Medium,Closed,Network,Software installation issue,Automatically generated sample ticket record,2024-05-14,2024-05-16,Charlie,2024-05-14 00:00:00
+398,TCKT-1398,High,Closed,Network,Password reset request,Automatically generated sample ticket record,2024-10-25,2024-10-26,Fatima,2024-10-25 00:00:00
+399,TCKT-1399,Medium,Resolved,Access,VPN connection problem,Automatically generated sample ticket record,2024-06-01,2024-06-11,Alice,2024-06-01 00:00:00
+400,TCKT-1400,Low,Open,Hardware,Antivirus alert,Automatically generated sample ticket record,2024-07-26,,Ethan,2024-07-26 00:00:00
+401,TCKT-1401,Medium,Resolved,Access,Cannot connect to WiFi,Automatically generated sample ticket record,2024-04-27,2024-05-01,Fatima,2024-04-27 00:00:00
+402,TCKT-1402,Critical,Resolved,Access,Laptop not starting,Automatically generated sample ticket record,2024-09-07,2024-09-08,Bob,2024-09-07 00:00:00
+403,TCKT-1403,High,Open,Access,Antivirus alert,Automatically generated sample ticket record,2024-09-29,,Hassan,2024-09-29 00:00:00
+404,TCKT-1404,High,In Progress,Access,Password reset request,Automatically generated sample ticket record,2024-09-30,,Ethan,2024-09-30 00:00:00
+405,TCKT-1405,High,Resolved,Access,VPN connection problem,Automatically generated sample ticket record,2024-04-14,2024-04-15,Fatima,2024-04-14 00:00:00
+406,TCKT-1406,High,Resolved,Hardware,Printer not working,Automatically generated sample ticket record,2024-06-02,2024-06-04,Fatima,2024-06-02 00:00:00
+407,TCKT-1407,Medium,Resolved,Network,Printer not working,Automatically generated sample ticket record,2024-01-15,2024-01-18,Charlie,2024-01-15 00:00:00
+408,TCKT-1408,Critical,In Progress,Hardware,Cannot connect to WiFi,Automatically generated sample ticket record,2024-04-18,,Ethan,2024-04-18 00:00:00
+409,TCKT-1409,Critical,Closed,Hardware,Cannot connect to WiFi,Automatically generated sample ticket record,2024-04-06,2024-04-11,Fatima,2024-04-06 00:00:00
+410,TCKT-1410,Low,In Progress,Software,System running slow,Automatically generated sample ticket record,2024-10-19,,Fatima,2024-10-19 00:00:00
+411,TCKT-1411,Low,In Progress,Security,Laptop not starting,Automatically generated sample ticket record,2024-04-12,,Ethan,2024-04-12 00:00:00
+412,TCKT-1412,High,Closed,Hardware,Antivirus alert,Automatically generated sample ticket record,2024-07-23,2024-07-28,Fatima,2024-07-23 00:00:00
+413,TCKT-1413,Low,Resolved,Security,Printer not working,Automatically generated sample ticket record,2024-07-07,2024-07-12,Bob,2024-07-07 00:00:00
+414,TCKT-1414,High,In Progress,Software,Printer not working,Automatically generated sample ticket record,2024-07-22,,Hassan,2024-07-22 00:00:00
+415,TCKT-1415,Critical,Resolved,Security,Password reset request,Automatically generated sample ticket record,2024-02-18,2024-02-23,Bob,2024-02-18 00:00:00
+416,TCKT-1416,Critical,In Progress,Software,Email not syncing,Automatically generated sample ticket record,2024-04-22,,Ethan,2024-04-22 00:00:00
+417,TCKT-1417,Medium,Closed,Access,Email not syncing,Automatically generated sample ticket record,2024-03-17,2024-03-23,Hassan,2024-03-17 00:00:00
+418,TCKT-1418,Low,Open,Hardware,Printer not working,Automatically generated sample ticket record,2024-03-01,,Bob,2024-03-01 00:00:00
+419,TCKT-1419,Low,Resolved,Security,Access denied error,Automatically generated sample ticket record,2024-05-12,2024-05-16,Charlie,2024-05-12 00:00:00
+420,TCKT-1420,Critical,Resolved,Network,VPN connection problem,Automatically generated sample ticket record,2024-09-20,2024-09-30,David,2024-09-20 00:00:00
+421,TCKT-1421,Low,Resolved,Network,Laptop not starting,Automatically generated sample ticket record,2024-09-01,2024-09-11,Hassan,2024-09-01 00:00:00
+422,TCKT-1422,Medium,Closed,Hardware,System running slow,Automatically generated sample ticket record,2024-10-06,2024-10-08,David,2024-10-06 00:00:00
+423,TCKT-1423,Low,Closed,Hardware,Access denied error,Automatically generated sample ticket record,2024-10-20,2024-10-30,Hassan,2024-10-20 00:00:00
+424,TCKT-1424,High,In Progress,Hardware,Software installation issue,Automatically generated sample ticket record,2024-03-01,,Bob,2024-03-01 00:00:00
+425,TCKT-1425,Medium,Resolved,Network,System running slow,Automatically generated sample ticket record,2024-08-11,2024-08-14,Charlie,2024-08-11 00:00:00
+426,TCKT-1426,Medium,In Progress,Network,Software installation issue,Automatically generated sample ticket record,2024-07-26,,Ethan,2024-07-26 00:00:00
+427,TCKT-1427,High,Open,Hardware,Access denied error,Automatically generated sample ticket record,2024-05-09,,Ethan,2024-05-09 00:00:00
+428,TCKT-1428,Critical,Resolved,Network,Cannot connect to WiFi,Automatically generated sample ticket record,2024-08-27,2024-09-01,Bob,2024-08-27 00:00:00
+429,TCKT-1429,Medium,Closed,Access,Cannot connect to WiFi,Automatically generated sample ticket record,2024-07-06,2024-07-09,Fatima,2024-07-06 00:00:00
+430,TCKT-1430,Low,Open,Software,Password reset request,Automatically generated sample ticket record,2024-04-04,,Ethan,2024-04-04 00:00:00
+431,TCKT-1431,Low,Resolved,Security,Access denied error,Automatically generated sample ticket record,2024-03-18,2024-03-23,Alice,2024-03-18 00:00:00
+432,TCKT-1432,Medium,Resolved,Access,Password reset request,Automatically generated sample ticket record,2024-04-14,2024-04-20,Fatima,2024-04-14 00:00:00
+433,TCKT-1433,High,Open,Software,Access denied error,Automatically generated sample ticket record,2024-07-27,,Alice,2024-07-27 00:00:00
+434,TCKT-1434,High,Resolved,Software,Password reset request,Automatically generated sample ticket record,2024-09-01,2024-09-07,Alice,2024-09-01 00:00:00
+435,TCKT-1435,Medium,Resolved,Security,Access denied error,Automatically generated sample ticket record,2024-07-20,2024-07-23,Charlie,2024-07-20 00:00:00
+436,TCKT-1436,Low,Closed,Access,Printer not working,Automatically generated sample ticket record,2024-09-03,2024-09-04,Hassan,2024-09-03 00:00:00
+437,TCKT-1437,High,In Progress,Security,Access denied error,Automatically generated sample ticket record,2024-08-19,,Alice,2024-08-19 00:00:00
+438,TCKT-1438,High,Open,Hardware,VPN connection problem,Automatically generated sample ticket record,2024-09-18,,Charlie,2024-09-18 00:00:00
+439,TCKT-1439,High,Closed,Hardware,Access denied error,Automatically generated sample ticket record,2024-05-26,2024-05-30,Alice,2024-05-26 00:00:00
+440,TCKT-1440,Low,In Progress,Network,Access denied error,Automatically generated sample ticket record,2024-10-17,,Bob,2024-10-17 00:00:00
+441,TCKT-1441,Medium,Closed,Access,VPN connection problem,Automatically generated sample ticket record,2024-02-13,2024-02-18,Hassan,2024-02-13 00:00:00
+442,TCKT-1442,Low,Open,Security,VPN connection problem,Automatically generated sample ticket record,2024-02-12,,Ethan,2024-02-12 00:00:00
+443,TCKT-1443,Medium,Open,Hardware,Email not syncing,Automatically generated sample ticket record,2024-03-24,,Bob,2024-03-24 00:00:00
+444,TCKT-1444,Low,Closed,Security,Email not syncing,Automatically generated sample ticket record,2024-10-20,2024-10-22,Bob,2024-10-20 00:00:00
+445,TCKT-1445,Critical,In Progress,Network,Access denied error,Automatically generated sample ticket record,2024-06-17,,Fatima,2024-06-17 00:00:00
+446,TCKT-1446,High,Resolved,Security,Laptop not starting,Automatically generated sample ticket record,2024-09-13,2024-09-20,Hassan,2024-09-13 00:00:00
+447,TCKT-1447,Critical,Closed,Access,Antivirus alert,Automatically generated sample ticket record,2024-03-30,2024-04-07,Bob,2024-03-30 00:00:00
+448,TCKT-1448,High,In Progress,Network,Printer not working,Automatically generated sample ticket record,2024-04-07,,Ethan,2024-04-07 00:00:00
+449,TCKT-1449,Low,Resolved,Network,Laptop not starting,Automatically generated sample ticket record,2024-02-04,2024-02-05,Ethan,2024-02-04 00:00:00
+450,TCKT-1450,Critical,In Progress,Hardware,VPN connection problem,Automatically generated sample ticket record,2024-03-09,,Hassan,2024-03-09 00:00:00
+451,TCKT-1451,Low,Closed,Security,Email not syncing,Automatically generated sample ticket record,2024-01-06,2024-01-12,Bob,2024-01-06 00:00:00
+452,TCKT-1452,High,Closed,Network,Antivirus alert,Automatically generated sample ticket record,2024-10-24,2024-10-25,David,2024-10-24 00:00:00
+453,TCKT-1453,Medium,Open,Hardware,System running slow,Automatically generated sample ticket record,2024-02-26,,Alice,2024-02-26 00:00:00
+454,TCKT-1454,High,In Progress,Network,Access denied error,Automatically generated sample ticket record,2024-09-13,,Alice,2024-09-13 00:00:00
+455,TCKT-1455,Low,Open,Software,VPN connection problem,Automatically generated sample ticket record,2024-04-23,,Charlie,2024-04-23 00:00:00
+456,TCKT-1456,High,Closed,Software,Antivirus alert,Automatically generated sample ticket record,2024-04-27,2024-05-05,Ethan,2024-04-27 00:00:00
+457,TCKT-1457,Low,Resolved,Security,Access denied error,Automatically generated sample ticket record,2024-04-04,2024-04-13,Charlie,2024-04-04 00:00:00
+458,TCKT-1458,Medium,Resolved,Security,Access denied error,Automatically generated sample ticket record,2024-03-20,2024-03-30,David,2024-03-20 00:00:00
+459,TCKT-1459,Critical,Closed,Security,Cannot connect to WiFi,Automatically generated sample ticket record,2024-01-09,2024-01-19,David,2024-01-09 00:00:00
+460,TCKT-1460,Medium,In Progress,Software,Printer not working,Automatically generated sample ticket record,2024-09-19,,Bob,2024-09-19 00:00:00
+461,TCKT-1461,Low,Open,Hardware,Password reset request,Automatically generated sample ticket record,2024-10-27,,Alice,2024-10-27 00:00:00
+462,TCKT-1462,Medium,Resolved,Access,Antivirus alert,Automatically generated sample ticket record,2024-07-22,2024-07-26,Bob,2024-07-22 00:00:00
+463,TCKT-1463,Low,In Progress,Software,Email not syncing,Automatically generated sample ticket record,2024-05-14,,Charlie,2024-05-14 00:00:00
+464,TCKT-1464,Critical,Closed,Network,Password reset request,Automatically generated sample ticket record,2024-03-06,2024-03-12,Bob,2024-03-06 00:00:00
+465,TCKT-1465,Medium,In Progress,Access,System running slow,Automatically generated sample ticket record,2024-01-19,,Ethan,2024-01-19 00:00:00
+466,TCKT-1466,Critical,Resolved,Hardware,Antivirus alert,Automatically generated sample ticket record,2024-07-01,2024-07-11,David,2024-07-01 00:00:00
+467,TCKT-1467,Critical,In Progress,Access,Password reset request,Automatically generated sample ticket record,2024-10-19,,Alice,2024-10-19 00:00:00
+468,TCKT-1468,Low,Resolved,Access,Password reset request,Automatically generated sample ticket record,2024-06-03,2024-06-07,Charlie,2024-06-03 00:00:00
+469,TCKT-1469,Medium,Closed,Security,Antivirus alert,Automatically generated sample ticket record,2024-09-27,2024-10-03,Fatima,2024-09-27 00:00:00
+470,TCKT-1470,Low,Open,Hardware,VPN connection problem,Automatically generated sample ticket record,2024-10-27,,Hassan,2024-10-27 00:00:00
+471,TCKT-1471,Critical,In Progress,Security,System running slow,Automatically generated sample ticket record,2024-03-21,,David,2024-03-21 00:00:00
+472,TCKT-1472,Medium,Resolved,Access,System running slow,Automatically generated sample ticket record,2024-02-25,2024-02-26,Hassan,2024-02-25 00:00:00
+473,TCKT-1473,Medium,Resolved,Hardware,VPN connection problem,Automatically generated sample ticket record,2024-07-21,2024-07-26,Bob,2024-07-21 00:00:00
+474,TCKT-1474,Medium,In Progress,Software,Password reset request,Automatically generated sample ticket record,2024-03-02,,Fatima,2024-03-02 00:00:00
+475,TCKT-1475,Critical,Open,Software,Password reset request,Automatically generated sample ticket record,2024-01-01,,Hassan,2024-01-01 00:00:00
+476,TCKT-1476,Critical,Open,Network,Antivirus alert,Automatically generated sample ticket record,2024-01-09,,Charlie,2024-01-09 00:00:00
+477,TCKT-1477,Medium,Resolved,Hardware,Software installation issue,Automatically generated sample ticket record,2024-01-30,2024-02-06,Bob,2024-01-30 00:00:00
+478,TCKT-1478,Low,Open,Access,Laptop not starting,Automatically generated sample ticket record,2024-03-12,,Charlie,2024-03-12 00:00:00
+479,TCKT-1479,Critical,In Progress,Network,Email not syncing,Automatically generated sample ticket record,2024-08-27,,Ethan,2024-08-27 00:00:00
+480,TCKT-1480,Medium,Closed,Network,Access denied error,Automatically generated sample ticket record,2024-09-12,2024-09-18,Ethan,2024-09-12 00:00:00
+481,TCKT-1481,Low,Closed,Network,Software installation issue,Automatically generated sample ticket record,2024-02-18,2024-02-25,Charlie,2024-02-18 00:00:00
+482,TCKT-1482,Medium,Closed,Network,Email not syncing,Automatically generated sample ticket record,2024-06-26,2024-07-03,Hassan,2024-06-26 00:00:00
+483,TCKT-1483,Medium,Closed,Security,VPN connection problem,Automatically generated sample ticket record,2024-08-13,2024-08-16,Alice,2024-08-13 00:00:00
+484,TCKT-1484,High,Resolved,Network,Laptop not starting,Automatically generated sample ticket record,2024-08-29,2024-09-08,Fatima,2024-08-29 00:00:00
+485,TCKT-1485,High,In Progress,Network,Access denied error,Automatically generated sample ticket record,2024-09-08,,Hassan,2024-09-08 00:00:00
+486,TCKT-1486,Medium,Resolved,Access,Email not syncing,Automatically generated sample ticket record,2024-06-23,2024-07-02,Hassan,2024-06-23 00:00:00
+487,TCKT-1487,Medium,Open,Software,VPN connection problem,Automatically generated sample ticket record,2024-04-29,,Alice,2024-04-29 00:00:00
+488,TCKT-1488,Low,Closed,Access,VPN connection problem,Automatically generated sample ticket record,2024-02-27,2024-03-02,Charlie,2024-02-27 00:00:00
+489,TCKT-1489,Low,Closed,Software,Cannot connect to WiFi,Automatically generated sample ticket record,2024-01-02,2024-01-05,David,2024-01-02 00:00:00
+490,TCKT-1490,Low,In Progress,Access,Password reset request,Automatically generated sample ticket record,2024-05-23,,Fatima,2024-05-23 00:00:00
+491,TCKT-1491,Medium,In Progress,Security,VPN connection problem,Automatically generated sample ticket record,2024-07-02,,Fatima,2024-07-02 00:00:00
+492,TCKT-1492,Low,Closed,Hardware,VPN connection problem,Automatically generated sample ticket record,2024-01-05,2024-01-07,Fatima,2024-01-05 00:00:00
+493,TCKT-1493,Low,Resolved,Access,Cannot connect to WiFi,Automatically generated sample ticket record,2024-04-11,2024-04-12,David,2024-04-11 00:00:00
+494,TCKT-1494,Critical,In Progress,Security,Software installation issue,Automatically generated sample ticket record,2024-08-31,,Ethan,2024-08-31 00:00:00
+495,TCKT-1495,Critical,In Progress,Network,Software installation issue,Automatically generated sample ticket record,2024-06-12,,Fatima,2024-06-12 00:00:00
+496,TCKT-1496,Critical,Open,Network,Email not syncing,Automatically generated sample ticket record,2024-08-06,,Ethan,2024-08-06 00:00:00
+497,TCKT-1497,Medium,Resolved,Access,Access denied error,Automatically generated sample ticket record,2024-03-14,2024-03-18,David,2024-03-14 00:00:00
+498,TCKT-1498,Low,Closed,Hardware,Password reset request,Automatically generated sample ticket record,2024-07-30,2024-08-08,Hassan,2024-07-30 00:00:00
+499,TCKT-1499,High,Resolved,Network,Printer not working,Automatically generated sample ticket record,2024-08-22,2024-08-31,Ethan,2024-08-22 00:00:00
+500,TCKT-1500,High,Resolved,Network,Password reset request,Automatically generated sample ticket record,2024-08-04,2024-08-06,Ethan,2024-08-04 00:00:00
